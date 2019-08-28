@@ -33,17 +33,19 @@ h3{
 
 
 .side section{
-    background: #ffb300;
+    background: #011631;
     padding-top: 5px;
     padding-left: 10px;
     padding-bottom: 10px;
     margin-bottom: 15px;
     box-shadow: 2px 4px 4px rgb(75, 73, 73);
+    color: white
     
 }
 
 section h3,p{
     text-align: center;
+    color: white
 
 }
 
@@ -72,8 +74,7 @@ section .image img{
     margin-top: 10px;
     margin-bottom: 0;
     font-size: 1.75em;
-    
-    color: #1a237e;
+    color: white;
 }
 
 .background{
@@ -85,7 +86,7 @@ section .image img{
 .education-card, .experience-card {
     box-shadow: 2px 4px 4px rgb(75, 73, 73);
     width: 48%;
-    background: #0316a8;
+    background: #011631;
     float: left;
     margin-right: 12px;
     margin-left: 2px;
@@ -135,7 +136,7 @@ list-style: none;
 .test{
     width: 700px;
     height: 5px;
-    background: #ffb300;
+    background: #9e6f02;
     border-radius: 20px;
     margin-top:2px;
 }
