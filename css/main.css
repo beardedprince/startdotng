@@ -1,0 +1,174 @@
+body{
+    background: #f4f4f4;
+}
+
+
+.container {
+    background: #f4f4f4;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top:2%;
+    width: 80%;
+    padding-left: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+
+}
+h3, p, li {
+    font-family: 'Inconsolata', monospace;
+}
+
+h3{
+    color: white; 
+    padding-left: 10px;
+}
+
+.side{
+    width: 25%;
+    float: left;
+    background: #283593;
+    height: 75px;
+    
+}
+
+
+.side section{
+    background: #ffb300;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    box-shadow: 2px 4px 4px rgb(75, 73, 73);
+    
+}
+
+section h3,p{
+    text-align: center;
+
+}
+
+.side section .contact p{
+    font-size: 12px;
+    text-align: left;
+}
+section p{
+    text-align: left;
+    padding: 0px 4px;
+    
+
+}
+
+section .image {
+    text-align: center;
+    padding-top: 5px;
+}
+section .image img{
+    width: 60%;
+    border-radius: 50%;
+}
+
+
+.side h3{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 1.75em;
+    
+    color: #1a237e;
+}
+
+.background{
+    width: 70%;
+    margin-left: 25px;
+    float: left;
+}
+
+.education-card, .experience-card {
+    box-shadow: 2px 4px 4px rgb(75, 73, 73);
+    width: 48%;
+    background: #0316a8;
+    float: left;
+    margin-right: 12px;
+    margin-left: 2px;
+    margin-bottom: 15px;
+    color: white;
+    text-align: left
+    
+    
+}
+
+.education-card ul li, .experience-card ul li{
+    list-style: none;
+}
+
+.education-card p, .experience-card p{
+    text-align: left;
+    padding-left: 5px;
+}
+
+
+span{
+    display: block;
+}
+
+
+
+.skill,  .certificate, .referee{
+    clear: both;
+    background: #011631;
+    width: 100%;
+    margin-bottom: 15px; 
+    box-shadow: 2px 4px 4px rgb(75, 73, 73);
+    padding-bottom: 12px;
+    padding-top: 5px; 
+    color: white;
+}
+
+
+
+
+
+.skill ul li{
+padding: 6px 0px;
+list-style: none;
+}
+
+.test{
+    width: 700px;
+    height: 5px;
+    background: #ffb300;
+    border-radius: 20px;
+    margin-top:2px;
+}
+
+.wp{
+    width: 600px;
+    height: 5px;
+    background: #ffb300;
+    border-radius: 20px;
+    margin-top:2px;
+}
+
+
+.test2{
+    width: 650px;
+    height: 5px;
+    background: #ffb300;
+    border-radius: 20px;
+    margin-top:2px;
+}
+
+.test3{
+    width: 600px;
+    height: 5px;
+    background: #ffb300;
+    border-radius: 20px;
+    margin-top:2px;
+}
+
+.test4{
+    width: 400px;
+    height: 5px;
+    background: #ffb300;
+    border-radius: 20px;
+    margin-top:2px;
+}
