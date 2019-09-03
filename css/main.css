@@ -29,6 +29,8 @@ h3{
     background: #283593;
     height: 75px;
     
+    
+    
 }
 
 
@@ -234,4 +236,251 @@ input[type=submit]:hover{
     margin-left: 15px;
     color: white;
 }
+/* ========================== Media Queries  for screen 600px ============================= */
 
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .container {
+        background: #f4f4f4;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top:5px;
+        width: 90%;
+        padding-left: 2%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+        
+    
+    }
+
+    .side{
+        width: 100%;
+        background: #283593;
+        height: 75px;
+        margin-bottom:650px;
+    }
+
+    .background{
+        width: 100%;
+        margin-top: 10px;
+        margin: 0;
+        
+        
+    }
+
+
+    .skill,  .certificate, .referee{
+        
+        background: #011631;
+        width: 100%;
+        margin-bottom: 15px; 
+        box-shadow: 2px 4px 4px rgb(75, 73, 73);
+        padding-bottom: 12px;
+        padding-top: 5px; 
+        color: white;
+    }
+
+
+    .side2{
+        width: 100%;
+    }
+
+
+    .education-card, .experience-card {
+        box-shadow: 2px 4px 4px rgb(75, 73, 73);
+        width: 100%;
+        background: #011631;
+        margin-left: 2px;
+        margin-bottom: 15px;
+        color: white;
+        text-align: left
+        
+        
+    }
+    .side2{
+        width: 100%;
+    }
+
+    .skill ul li{
+        padding: 6px 0px;
+        list-style: none;
+        }
+        
+        .test{
+            width: 100px;
+            height: 5px;
+            background: #9e6f02;
+            border-radius: 20px;
+            margin-top:2px;
+        }
+        
+        .wp{
+            width: 100px;
+            height: 5px;
+            background: #ffb300;
+            border-radius: 20px;
+            margin-top:2px;
+        }
+        
+        
+        .test2{
+            width: 150px;
+            height: 5px;
+            background: #ffb300;
+            border-radius: 20px;
+            margin-top:2px;
+        }
+        
+        .test3{
+            width: 100px;
+            height: 5px;
+            background: #ffb300;
+            border-radius: 20px;
+            margin-top:2px;
+        }
+        
+        .test4{
+            width: 100px;
+            height: 5px;
+            background: #ffb300;
+            border-radius: 20px;
+            margin-top:2px;
+        }
+        
+
+  }
+
+
+/* ======================= Nexus 5 ====================== */
+
+  @media only screen 
+and (min-width: 360px)
+and (orientation: portrait)
+and (-webkit-min-device-pixel-ratio: 3.0) {
+  body {
+    background-color: #f4f4f4;
+  }
+}
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    body {
+        background-color: #f4f4f4;
+      }
+  
+      .container {
+          background: #f4f4f4;
+          margin-left: 5px;
+          margin-right: 5px;
+          margin-top:5px;
+          width: 90%;
+          padding-left: 2%;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          
+          
+      
+      }
+  
+      .side{
+          width: 100%;
+          background: #283593;
+          height: 75px;
+          margin-bottom:650px;
+      }
+  
+      .background{
+          width: 100%;
+          margin-top: 10px;
+          margin: 0;
+          
+          
+      }
+  
+  
+      .skill,  .certificate, .referee{
+          
+          background: #011631;
+          width: 100%;
+          margin-bottom: 15px; 
+          box-shadow: 2px 4px 4px rgb(75, 73, 73);
+          padding-bottom: 12px;
+          padding-top: 5px; 
+          color: white;
+      }
+  
+  
+      .side2{
+          width: 100%;
+      }
+  
+  
+      .education-card, .experience-card {
+          box-shadow: 2px 4px 4px rgb(75, 73, 73);
+          width: 100%;
+          background: #011631;
+          margin-left: 2px;
+          margin-bottom: 15px;
+          color: white;
+          text-align: left
+          
+          
+      }
+      .side2{
+          width: 100%;
+      }
+  
+      .skill ul li{
+          padding: 6px 0px;
+          list-style: none;
+          }
+          
+          .test{
+              width: 100px;
+              height: 5px;
+              background: #9e6f02;
+              border-radius: 20px;
+              margin-top:2px;
+          }
+          
+          .wp{
+              width: 100px;
+              height: 5px;
+              background: #ffb300;
+              border-radius: 20px;
+              margin-top:2px;
+          }
+          
+          
+          .test2{
+              width: 150px;
+              height: 5px;
+              background: #ffb300;
+              border-radius: 20px;
+              margin-top:2px;
+          }
+          
+          .test3{
+              width: 100px;
+              height: 5px;
+              background: #ffb300;
+              border-radius: 20px;
+              margin-top:2px;
+          }
+          
+          .test4{
+              width: 100px;
+              height: 5px;
+              background: #ffb300;
+              border-radius: 20px;
+              margin-top:2px;
+          }
+          
+  
+
+
+ }
